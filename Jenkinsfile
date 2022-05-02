@@ -1,5 +1,5 @@
-library identifier: 'akubova@master', 
-        retriever: modernSCM([$class: 'GitSCMSource', remote: 'https://github.com/akubova/akubova.git'])
+library identifier: 'akubova', 
+        retriever: modernSCM([$class: 'GitSCMSource', remote: 'https://github.com/akubova/.git'])
 
 pipeline {
     agent any

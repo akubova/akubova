@@ -1,4 +1,4 @@
-library identifier: 'jenkins-pipeline-demo-library@master', 
+library identifier: 'akubova@master', 
         retriever: modernSCM([$class: 'GitSCMSource', remote: 'https://github.com/akubova/akubova.git'])
 
 pipeline {
